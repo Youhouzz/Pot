@@ -1,0 +1,20 @@
+package m;
+import java.io.Serializable;
+public class Pomme extends Fruit implements Serializable{
+			
+	public Pomme() {
+		super("Pomme", 2, 2, 2, 3);
+		
+	}
+
+	@Override
+	public String toString() {
+		return "Pomme [nom=" + Nom + ", dureeDeLaPoussePourMaturite=" + dureeDeLaPoussePourMaturite
+				+ ", quantiteObtenuLorsDeLaRecolte=" + quantiteObtenuLorsDeLaRecolte + ", niveauDeMaturite="
+				+ niveauDeMaturite + ", prixDeVente=" + prixdevente + ", prixPourPlanter=" + prixpourplanter + "]";
+	}
+
+	
+	
+	
+}
